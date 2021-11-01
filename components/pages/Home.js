@@ -6,7 +6,7 @@ export default function Home () {
         <div className='home-title'>Juanjo Ortiz</div>
         <div className='home-description'>Soy desarrollador Front-End con más de 3 años de experiencia.
          Actualmente desarrollo aplicaciones enfocadas a facilitar el aprendizaje
-         de los alumnos en <span className='green-neon'>Ilerna</span></div>
+         de los alumnos en <a href='https://www.ilerna.es' className='link' target='_blank' rel='noreferrer'>Ilerna</a></div>
       </div>
   </section>
 }

@@ -1,0 +1,26 @@
+
+.IconsBar{
+    position: fixed;
+    right: 0;
+}
+
+.IconsBar-list{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    padding-right: 3rem;
+}
+
+.IconsBar-item {
+    margin: 0 .4rem;
+    transition: all var(--transition-time);
+}
+
+.IconsBar-item:hover{
+    transform: translateY(-3px);
+}
+
+
+@media (max-width: 400px) {
+    .IconsBar{display: none;}
+}

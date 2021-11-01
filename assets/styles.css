@@ -1,5 +1,6 @@
 @import './fonts.css';
 @import '../components/pages/home.css';
+@import '../components/IconsBar/IconsBar.css';
 
 :root{
     --main-bg-color: #15202B;
@@ -8,6 +9,7 @@
     --slate: #B0B9D6;
     --light-slate: #CCD0F6;
     --neon-green: #64FFDA;
+    --transition-time: .2s;
 }
 
 html{
@@ -33,8 +35,9 @@ section{
     height: auto;
 }
 
-.green-neon{
+.link{
     color: var(--neon-green);
+    text-decoration: none;
 }
 
 @media (max-width: 850px) {
