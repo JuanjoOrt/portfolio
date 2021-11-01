@@ -2,6 +2,7 @@
 @import '../components/pages/Home/home.css';
 @import '../components/IconsBar/IconsBar.css';
 @import '../components/pages/About/About.css';
+@import '../components/Link/Link.css';
 
 :root{
     --main-bg-color: #15202B;

@@ -1,0 +1,18 @@
+
+.link {
+    display: inline;
+    position: relative;
+}
+
+.link-border{
+    height: 2px;
+    width: 0;
+    background: var(--neon-green);
+    position: absolute;
+    left: 0;
+    transition: width var(--transition-time);
+}
+
+.link:hover > .link-border{
+    width: 100%;
+}

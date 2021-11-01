@@ -1,3 +1,4 @@
+import Link from '../../Link/Link';
 
 export default function Home () {
   return <section className='home-section'>
@@ -7,7 +8,7 @@ export default function Home () {
           <div className='home-title'>Juanjo Ortiz</div>
           <div className='home-description'>Soy desarrollador Front-End con más de 3 años de experiencia. <br />
           Actualmente desarrollo aplicaciones enfocadas a facilitar el aprendizaje
-          de los alumnos en <a href='https://www.ilerna.es' className='link' target='_blank' rel='noreferrer'>Ilerna</a></div>
+          de los alumnos en <Link url={'https://www.ilerna.es'} /></div>
         </div>
       </div>
   </section>
