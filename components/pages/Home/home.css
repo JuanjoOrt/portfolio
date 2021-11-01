@@ -1,4 +1,8 @@
 
+.home-section{
+    height: 100vh;
+}
+
 .home-container{
     margin-left: 2rem;
 }

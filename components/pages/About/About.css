@@ -1,0 +1,33 @@
+
+.container-about{
+    max-width: 700px;
+    display: flex;
+}
+
+.container-text{
+    width: 600px;
+}
+
+.container-text__title{
+    font-size: 30px;
+    color: var(--neon-green);
+    margin-bottom: .8rem
+}
+
+.container-text__description{
+    font-size: 20px;
+    color: var(--navy)
+}
+
+.container-picture{
+    margin-left: 3rem;
+}
+
+.profile-picture{
+    border: 2px solid var(--neon-green)!important;
+    border-radius: 500px;
+}
+
+@media (max-width: 770px) {
+    .container-picture{display: none;}
+}

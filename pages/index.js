@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import IconsBar from '../components/IconsBar/IconsBar'
-import Home from '../components/pages/Home'
+import About from '../components/pages/About/About'
+import Home from '../components/pages/Home/Home'
 
 export default function Page () {
   return (
@@ -10,6 +11,7 @@ export default function Page () {
       </Head>
       <IconsBar />
       <Home />
+      <About />
     </div>
   )
 }

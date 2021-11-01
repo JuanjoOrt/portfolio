@@ -1,6 +1,6 @@
 
 export default function Home () {
-  return <section>
+  return <section className='home-section'>
       <div className='container'>
         <div className='home-container'>
           <div className='home-subtitle'>HI, I’m</div>

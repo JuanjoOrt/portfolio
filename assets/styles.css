@@ -1,6 +1,7 @@
 @import './fonts.css';
-@import '../components/pages/home.css';
+@import '../components/pages/Home/home.css';
 @import '../components/IconsBar/IconsBar.css';
+@import '../components/pages/About/About.css';
 
 :root{
     --main-bg-color: #15202B;
@@ -24,7 +25,6 @@ body{
 }
 
 section{
-    height: 100vh;
     width: 100vw;
     display: flex;
     justify-content: center;
