@@ -20,6 +20,7 @@ module.exports = {
   rules: {
     'react/jsx-uses-react': 'off',
     'react/react-in-jsx-scope': 'off',
-    'no-use-before-define': 'off'
+    'no-use-before-define': 'off',
+    'react/prop-types': 'off'
   }
 }
