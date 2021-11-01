@@ -1,7 +1,7 @@
 import Github from '../../assets/github.svg'
 import Linkedin from '../../assets/linkedin.svg'
 import Twitter from '../../assets/twitter.svg'
-import Image from 'next/Image'
+import Image from 'next/image'
 
 export default function IconsBar () {
   return (
