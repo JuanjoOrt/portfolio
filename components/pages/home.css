@@ -15,3 +15,9 @@
     max-width: 583px;
     color: var(--navy)
 }
+
+@media (max-width: 400px) {
+    .home-subtitle{font-size: 24px;}
+    .home-title{font-size: 48px;}
+    .home-description{font-size: 18px;}
+}
