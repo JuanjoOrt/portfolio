@@ -1,4 +1,4 @@
-import Link from '../../Link/Link';
+import Link from '../../Link/Link'
 
 export default function Home () {
   return <section className='home-section'>
