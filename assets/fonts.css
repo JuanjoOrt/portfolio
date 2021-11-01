@@ -1,6 +1,12 @@
 @font-face {
-    font-family: Calibri;
-    src: url('./fonts/CalibriRegular.ttf');
-  }
+  font-family: Calibri;
+  src: url('./fonts/CalibriRegular.ttf');
+}
+
+@font-face {
+  font-family: Calibri;
+  src: url('./fonts/CalibriBold.TTF');
+  font-weight: 700;
+}
   
   

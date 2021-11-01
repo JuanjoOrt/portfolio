@@ -1,13 +1,13 @@
+import Head from 'next/head'
+import Home from '../components/pages/Home'
 
-export default function Home () {
+export default function Page () {
   return (
     <div>
-      <head>
+      <Head>
         <title>Juanjo Ortiz</title>
-      </head>
-      <body>
-        Juanjo Ortiz
-      </body>
+      </Head>
+      <Home />
     </div>
   )
 }
