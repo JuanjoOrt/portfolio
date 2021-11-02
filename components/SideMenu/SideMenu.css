@@ -12,6 +12,6 @@
     padding: .5rem 0;
 }
 
-@media (max-width: 1185px) {
+@media (max-width: 1000px) {
     .sideMenu-list{display: none;}
 }
