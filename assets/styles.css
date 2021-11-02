@@ -27,6 +27,7 @@ body{
 }
 
 section{
+    margin-left: 5rem;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -49,4 +50,5 @@ section{
 
 @media (max-width: 850px) {
     .container{width: 90%;}
+    section{margin-left: 0;}
 }
