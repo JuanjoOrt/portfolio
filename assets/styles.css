@@ -3,6 +3,7 @@
 @import '../components/IconsBar/IconsBar.css';
 @import '../components/pages/About/About.css';
 @import '../components/Link/Link.css';
+@import '../components/SideMenu/SideMenu.css';
 
 :root{
     --main-bg-color: #15202B;
@@ -40,6 +41,10 @@ section{
 .link{
     color: var(--neon-green);
     text-decoration: none;
+}
+
+.color-white{
+    color: white!important;
 }
 
 @media (max-width: 850px) {

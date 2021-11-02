@@ -1,0 +1,17 @@
+
+.sideMenu-list{
+    list-style: none;
+    position: fixed;
+    bottom: 0;
+    padding: .6rem 2rem;
+    font-size: 20px;
+    color: white;
+}
+
+.sideMenu-item{
+    padding: .5rem 0;
+}
+
+@media (max-width: 1185px) {
+    .sideMenu-list{display: none;}
+}
