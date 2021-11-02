@@ -21,13 +21,31 @@
 
 .container-picture{
     margin-left: 3rem;
+    position: relative;
 }
 
 .profile-picture{
     border: 2px solid var(--neon-green)!important;
     border-radius: 500px;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+.line-1{
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    z-index: 1;
+}
+
+.line-2{
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    z-index: 1;
 }
 
 @media (max-width: 770px) {
-    .container-picture{display: none;}
+    .container-picture__image{display: none;}
 }

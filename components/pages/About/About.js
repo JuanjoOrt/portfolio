@@ -17,7 +17,13 @@ export default function About () {
                 </div>
             </div>
             <div className='container-picture'>
-                <Image src={ProfilePicture} height={280} width={280} className='profile-picture'/>
+                <div className='container-picture__image'><Image src={ProfilePicture} height={280} width={280} className='profile-picture'/></div>
+                <svg width="2" height="85%"className='line-1'fill='#64ffda'>
+                    <rect width="2" height="85%"/>
+                </svg>
+                <svg width="2" height="20%"className='line-2'fill='#64ffda'>
+                    <rect width="2" height="65%"/>
+                </svg>
             </div>
         </div>
     </div>
