@@ -1,7 +1,7 @@
 import Link from '../../Link/Link'
 
 export default function Home () {
-  return <section className='home-section'>
+  return <section>
       <div className='container'>
         <div className='home-container'>
           <div className='home-subtitle'>HI, I’m</div>
