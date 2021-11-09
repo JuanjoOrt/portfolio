@@ -1,7 +1,7 @@
 
 .experience-container{
     width: 750px;
-    height: 30rem;
+    height: 33rem;
     display: flex;
 }
 
@@ -26,6 +26,7 @@
     border: 0;
     background-color: transparent;
     cursor: pointer;
+    transition: background-color .2s;
 }
 
 .experience-sidebar__item:hover{
@@ -40,8 +41,59 @@
 }
 
 .experience-content{
-    width: 437px;
     height: 381px;
-    margin-top: 3.2rem;
-    background-color: tomato;
+    margin-top: 3rem;
+    margin-left: 4rem;
+}
+
+.experience-content__header{
+    color: var(--light-slate);
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.experience-content__body{
+    background: var(--dark-navy);
+    height: auto;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 20px 25px 20px 25px;
+    color: var(--slate);
+    box-shadow: 0px 0px 29px -5px rgba(0,0,0,0.57);
+}
+
+.experience-content__footer{
+    font-size: 20px;
+    color: var(--neon-green);
+    margin-top: 1.2rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.experience-content__footer__item{
+    margin-left: 1.5rem;
+}
+
+@media (max-width: 770px) {
+    .experience-container{flex-direction: column; width: 100%;}
+    .experience-sidebar{
+        flex-direction: row; 
+        width: 100%; 
+        height: 3rem;
+        overflow-x: auto;
+        overflow-y: hidden;
+        padding-left: 4rem;
+        
+    }
+    .experience-sidebar__item{
+        width: auto;
+        padding: 0 1rem;
+        white-space: nowrap;
+    }
+    .experience-content{
+        margin-left: 0;
+    }
+    .experience-content__body{
+        width: 100%;
+    }
 }
