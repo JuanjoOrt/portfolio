@@ -3,6 +3,7 @@ import IconsBar from '../components/IconsBar/IconsBar'
 import About from '../components/pages/About/About'
 import Home from '../components/pages/Home/Home'
 import { SideMenu } from '../components/SideMenu/SideMenu'
+import Experience from '../components/pages/experience/Experience'
 
 export default function Page () {
   return (
@@ -14,6 +15,7 @@ export default function Page () {
       <SideMenu />
       <Home />
       <About />
+      <Experience />
     </div>
   )
 }
